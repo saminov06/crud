@@ -25,6 +25,7 @@ function yarat(){
     var td2=document.createElement('td');
     var td3=document.createElement('td');
     var td4=document.createElement('td');
+     var td5=document.createElement('td');
     
 
 
@@ -33,7 +34,7 @@ function yarat(){
     td2.innerText = inp3.value;
     td3.innerText = inp4.value;
     td4.innerText = inp5.value;
-
+    td5.appendChild(btn);
     
 
     tr.appendChild(td);
@@ -41,7 +42,7 @@ function yarat(){
     tr.appendChild(td2);
     tr.appendChild(td3);
     tr.appendChild(td4);
-    td5.appendChild(btn);
+   
     td5.appendChild(btn1);
 
     tr.appendChild(td5);
