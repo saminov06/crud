@@ -35,7 +35,7 @@ function yarat(){
     td3.innerText = inp4.value;
     td4.innerText = inp5.value;
     td5.appendChild(btn);
-    
+     td5.appendChild(btn1);
 
     tr.appendChild(td);
     tr.appendChild(td1);
@@ -43,7 +43,7 @@ function yarat(){
     tr.appendChild(td3);
     tr.appendChild(td4);
    
-    td5.appendChild(btn1);
+   
 
     tr.appendChild(td5);
     tbody.appendChild(tr)
